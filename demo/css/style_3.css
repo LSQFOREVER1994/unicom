@@ -1,0 +1,27 @@
+p{
+  text-align:left;
+  margin-top:10px;
+  margin-left:10px;
+}
+span{
+  font-weight:bold;
+}
+.pOne,.pTwo,.pThree{
+  font-size:32px;
+  font-weight:bold;
+}
+.pOne{
+  color:white;
+  background:#00ccff;
+}
+.pTwo{
+  font-size:24px;
+  float:left;
+  padding:30px;
+}
+.pThree{
+  font-size:14px;
+}
+.pFour{
+  padding-bottom:85px;
+}
