@@ -1,0 +1,54 @@
+.resumeText {
+  background: #858585;
+  color: white;
+  font-size: 12px;
+  padding-left: 20px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.flexRow {
+  overflow: hidden;
+  border: 1px solid #d6d6d6;
+}
+
+.left {
+  float: left;
+  background: #d6d6d6;
+  font-size: 12px;
+  height: 120px;
+  width: 120px;
+  line-height: 120px;
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+h2 {
+  margin: auto;
+}
+
+.clearfix,
+.ability {
+  margin-top: 10px;
+}
+
+.float_1 div,
+.float_2 div {
+  float: left;
+  margin-left: 5px;
+}
+
+.float_1 div:nth-of-type(2),
+.float_1 div:nth-of-type(3),
+.float_2 div:nth-of-type(2),
+.float_2 div:nth-of-type(3) {
+  margin-left: 20px;
+}
+
+p {
+  display: inline;
+}
+
+.ability {
+  margin-left: 125px;
+}
