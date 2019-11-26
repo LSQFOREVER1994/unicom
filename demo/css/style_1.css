@@ -1,18 +1,18 @@
+body{
+  border:1px solid #d6d6d6;
+  padding:0 0 20px 20px;
+}
+.float_1 div,
+.float_2 div {
+  display:inline;
+}
+.float_1 div:nth-of-type(2),
+.float_2 div:nth-of-type(2){
+  margin:0 40px;
+}
 p{
-  text-align:left;
-  margin-top:10px;
-  margin-left:10px;
+  margin:0;
 }
-span{
-  font-weight:bold;
-}
-.pOne,.pTwo,.pThree{
-  font-size:32px;
-  font-weight:bold;
-}
-.pTwo{
-  font-size:24px;
-}
-.pThree{
-  font-size:14px;
+.right div:nth-of-type(1) p{
+  margin-bottom:10px;
 }
