@@ -1,0 +1,52 @@
+.container {
+  position: relative;
+  background: grey;
+}
+
+/* .container .left{
+  position:absolute;
+  left:0;
+  top:0;
+  width:30%;
+  background:green;
+}
+.container .right{
+  position:absolute;
+  left:30%;
+  top:0;
+  width:70%;
+  background:gold;
+} */
+/* 实现一个两栏布局，左侧占30%宽度，右侧占70%宽度 */
+/* .container .left{
+  position:absolute;
+  left:0;
+  top:0;
+  width:200px;
+  background:green;
+}
+.container .right{
+  position:absolute;
+  left:200px;
+  width:100%;
+  top:0;
+  background:red;
+} */
+/* 实现一个两栏布局，左侧固定宽度，右侧根据浏览器宽度进行自适应变化 */
+.container .left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: green;
+  width: 100%;
+}
+
+.container .right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+  background: red;
+}
+
+/* 实现一个两栏布局，右侧固定宽度，左侧根据浏览器宽度进行自适应变化 */

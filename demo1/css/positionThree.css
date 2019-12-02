@@ -1,0 +1,52 @@
+/* .container {
+  position: relative;
+}
+
+.container .left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: red;
+  width: 200px;
+}
+
+.container .middle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 200px;
+  background: blue;
+}
+
+.container .right {
+  position: absolute;
+  left: 200px;
+  right: 200px;
+  top: 0;
+  background: yellow;
+} */
+/* 实现一个三栏布局，左侧固定宽度，右侧固定宽度，中间部分宽度随浏览器宽度变化而自适应变化 */
+.container {
+  position:relative;
+}
+.container .left{
+  position:absolute;
+  left:0;
+  top:0;
+  width:200px;
+  background:red;
+}
+.container .middle{
+  position:absolute;
+  left:200px;
+  top:0;
+  width:200px;
+  background:yellow;
+}
+.container .right{
+  position:absolute;
+  left:400px;
+  top:0;
+  background:blue;
+  width:100%;
+}

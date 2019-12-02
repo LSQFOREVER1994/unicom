@@ -1,0 +1,30 @@
+/* .container .left {
+  float: left;
+  background: red;
+  width: 200px;
+}
+
+.container .middle {
+  float: right;
+  background: blue;
+  width: 200px;
+}
+
+.container .right {
+  background: yellow;
+  width: 100%;
+} */
+/* 实现一个三栏布局，左侧固定宽度，右侧固定宽度，中间部分宽度随浏览器宽度变化而自适应变化 */
+.container .left{
+  float:left;
+  background:red;
+  width:200px;
+}
+.container .middle{
+  float:left;
+  background:yellow;
+  width:200px;
+}
+.container .right{
+  background:blue;
+}

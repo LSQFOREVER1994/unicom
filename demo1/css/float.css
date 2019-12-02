@@ -1,0 +1,33 @@
+/* .container .left{
+  background:red;
+  width:30%;
+  float:left;
+}
+.container .right{
+  background:green;
+  width:70%;
+  float:left;
+} */
+/* 实现一个两栏布局，左侧占30%宽度，右侧占70%宽度 */
+/* .container .left{
+  background:green;
+  width:200px;
+  float:left;
+}
+.container .right{
+  background:grey;
+  margin-left:200px;
+} */
+/* 实现一个两栏布局，左侧固定宽度，右侧根据浏览器宽度进行自适应变化 */
+.container .left {
+  float: right;
+  width: 200px;
+  background: gold;
+}
+
+.container .right {
+  margin-right: 200px;
+  background: green;
+}
+
+/* 实现一个两栏布局，右侧固定宽度，左侧根据浏览器宽度进行自适应变化 */
